@@ -1,0 +1,248 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: rgb(89,159,159);
+background: linear-gradient(90deg, rgba(89,159,159,1) 0%, rgba(12,50,144,1) 100%);
+
+    
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a img{
+    color: #fff;
+    height: 40px;
+    width: 60px;
+    border-radius: 20%;
+    text-align: left;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+    
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.home{
+    display: flex;
+    background: url(https://cdn.pixabay.com/photo/2015/09/23/08/16/thunder-953118_1280.jpg);
+    height: 100vh;
+    color: #fff;
+    min-width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home .max-width{
+    margin: auto ;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 60;
+    margin-left: -3px;
+    
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    
+}
+.home .home-content .text-2 span{
+    color: rgb(179, 30, 30);
+}
+
+section{
+    padding: 100px 0;
+
+}
+.about{
+    font-family: 'popins' sans-serif;
+    background: rgb(111, 225, 193);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 58%);
+}
+.about .title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu' sans-serif;
+    
+  
+}
+.about .title::before{
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    
+    
+  
+}
+.about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.about .about-content .lef{
+    width: 45%;
+
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+}
+.about .about-content .right .text span{
+    color: rgb(183, 87, 23);
+}
+.about .about-content .right .text p{
+    font-size: 20px;
+    text-align: justify;
+    
+}
+ 
+
+section{
+    padding: 100px 0;
+
+}
+.skills{
+    font-family: 'popins' sans-serif;
+    align-items: center;
+    background: rgb(49, 210, 210);
+    background: linear-gradient(90deg, rgb(26, 58, 184)0%, rgb(55, 85, 186) 0%, rgba(0,53,224,1) 100%);
+    display: flex;
+    justify-content:space-between;
+    font-size: 70px;
+    box-sizing: 100px;
+   
+   
+}
+.skills.title h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu' sans-serif;
+    padding: 20px;
+    display: flex;
+    
+}  
+
+.skills .title::before{
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    
+    
+  
+}
+.skills.skill-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.skills .skills-content .left a{
+    display: inline-block;
+    background: rgb(203, 20, 220);
+    color: #fff;
+    font-size: 100px;
+    font-weight: 500;
+    padding: 9px 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(193, 20, 220);
+    transition: all 0.8s ease;
+}
+.skills .skills-content .left a:hover{
+    color: rgb(20, 57, 220);
+    background: none;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 5px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 400;
+    font-size: 20px;
+}
+.skills .skills-content .right .line{
+    height: 20px;
+    width: 80px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(220, 177, 20);
+}
+.skills-content .right .html::before{
+    width: 20%;
+}
+.skills-content .right .css::before{
+    width: 15%;
+}
+.skills-content .right .js::before{
+    width: 40%;
+}
+
+.contact{
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    
+}
